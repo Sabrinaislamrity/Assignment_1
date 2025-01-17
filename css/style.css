@@ -1,272 +1,278 @@
-
-
-.work-sans{
-  font-family: "Work Sans", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+.work-sans {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
+
 /* nav start  */
-.nav{
+.nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 30px 210px;
 }
 
-.nav title{
+.nav title {
     color: rgb(14, 14, 14);
 
-font-size: 32px;
-font-weight: 700;
-line-height: 38px;
-letter-spacing: 0%;
-text-align: left;
-    
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+
 }
 
-nav ul{
+nav ul {
     display: flex;
 }
 
-nav ul li{
-list-style: none;
+nav ul li {
+    list-style: none;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
 }
-.btn_singin{
 
-width: 116px;
-height: 52px;
-display: flex;
+.btn_singin {
 
-justify-content: center;
-align-items: center;
-gap: 48;
-padding: 15px 30px 15px 30px;
-background-color: white;
-margin: 0px 10px;
-box-sizing: border-box;
-border: 1px solid rgb(0, 106, 80);
-border-radius: 8px;
-color: rgb(0, 106, 80);
-border-color: rgb(0, 106, 80);
-font-size: 15px;
-font-weight: 600;
-line-height: 22px;
+    width: 116px;
+    height: 52px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 15px 30px 15px 30px;
+    background-color: white;
+    margin: 0px 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    color: rgb(0, 106, 80);
+    border-color: rgb(0, 106, 80);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
 }
 
 /* nav end  */
 
 /* banner start */
 
-.banner{
+.banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
     border-radius: 24px;
-background: rgb(198, 228, 214);
+    background: rgb(198, 228, 214);
 
-/* Frame 4 */
-position: static;
-width: 1280px;
-height: 560px;
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 64;
-padding: 80px 100px 80px 100px;
+    /* Frame 4 */
+    position: static;
+    width: 1280px;
+    height: 560px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 64;
+    padding: 80px 100px 80px 100px;
 
 
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin-left: 200px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 200px;
 }
 
-.banner_content h4{
+.banner_content h4 {
     /* Bangladesh 2.0 */
-width: 622px;
-height: 29px;
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-gap: 16;
-padding: 0px;
+    width: 622px;
+    height: 29px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16;
+    padding: 0px;
 
 
-/* Inside Auto Layout */
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 16px 0px;
+    /* Inside Auto Layout */
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
 
-color: rgba(14, 14, 14, 0.5);
-font-size: 24px;
-font-weight: 500;
-line-height: 29px;
-letter-spacing: 0%;
-text-align: left;
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 
-.banner_content h1{
+.banner_content h1 {
     /* Idea , innovation , vision and challenges in New Bangladesh. */
-width: 622px;
-height: 201px;
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-gap: 16;
-padding: 0px;
+    width: 622px;
+    height: 201px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16;
+    padding: 0px;
 
 
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 16px 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
 
 
 
-color: rgb(14, 14, 14);
-font-size: 56px;
-font-weight: 700;
-line-height: 67px;
-letter-spacing: 0%;
-text-align: left;
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
-.btn_explore{
+.btn_explore {
     color: rgb(255, 255, 255);
-font-size: 16px;
-font-weight: 600;
-line-height: 22px;
-letter-spacing: 0%;
-text-align: center;
-border-radius: 8px;
-background: rgb(0, 106, 80);
-max-width: 270px;
-flex-wrap: nowrap;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    max-width: 270px;
+    flex-wrap: nowrap;
 
-/* Frame 2 */
-position: static;
-width: 270px;
-height: 56px;
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 48;
-padding: 10px 20px;
+    /* Frame 2 */
+    position: static;
+    width: 270px;
+    height: 56px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 10px 20px;
 
 
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 24px 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 24px 0px;
 }
 
 /* banner end */
 /* Pillars of "Bangladesh 2.0" start */
 
 
-.pillars{
+.pillars {
     margin: 30px 210px;
 }
 
-.pillars_container{
+.pillars_container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+
 }
 
-.pillars_title{
+.pillars_title {
     /* Pillars of "Bangladesh 2.0" */
-position: static;
-width: 1280px;
-height: 48px;
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-gap: 32;
-padding: 0px;
+    position: static;
+    width: 1280px;
+    height: 48px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32;
+    padding: 0px;
 
 
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 32px 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
 
-color: rgb(14, 14, 14);
+    color: rgb(14, 14, 14);
 
-font-size: 40px;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: 0%;
-text-align: left;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
-.pillar_1{
+.pillar_1 {
     box-sizing: border-box;
-border: 1px solid rgba(14, 14, 14, 0.15);
-border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
 
-background: rgb(255, 255, 255);
-
-
-/* Frame 2087325495 */
-position: static;
-width: 302px;
-height: 244px;
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-gap: 24;
-padding: 24px;
+    background: rgb(255, 255, 255);
 
 
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 24px;
+    /* Frame 2087325495 */
+    position: static;
+    width: 302px;
+    height: 244px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 24px;
 
 
-box-shadow: 0px 6px 50px 0px rgba(14, 14, 14, 0.15);
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+
+
+    box-shadow: 0px 6px 50px 0px rgba(14, 14, 14, 0.15);
 }
+
 /* Pillars of "Bangladesh 2.0" end  */
 /* The Vision of Future start */
- .bg_color{
+.bg_color {
     background: rgba(84, 144, 245, 0.2);
 }
- .bg_colorr{
-    background:rgb(198, 228, 214);
+
+.bg_colorr {
+    background: rgb(198, 228, 214);
 }
-.bg_colorrr{
-    background:rgb(247, 235, 207);
+
+.bg_colorrr {
+    background: rgb(247, 235, 207);
 }
-.vision{
+
+.vision {
     margin: 30px 210px;
 }
-.vision_title{
+
+.vision_title {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-size: 40px;
@@ -276,6 +282,300 @@ box-shadow: 0px 6px 50px 0px rgba(14, 14, 14, 0.15);
     text-align: left;
 
     /* The Vision of Future */
+    position: static;
+    width: 1280px;
+    height: 48px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.vision_description {
+    /* Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation, and robust infrastructure, the country is set to become a global model of development. */
+    position: static;
+    width: 1280px;
+    height: 48px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 12px 0px;
+
+
+}
+
+.vision_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.vision_1 {
+    box-sizing: border-box;
+    border-radius: 16px;
+
+
+    /* Frame 2087325495 */
+    position: static;
+    width: 410.67px;
+    height: 325px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 32px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 24px;
+}
+
+.btn_vision {
+    /* Frame 2 */
+    position: static;
+    width: 122px;
+    height: 41px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 11px 20px 11px 20px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 9px 0px;
+
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.blue {
+    background: rgb(84, 144, 245);
+}
+
+.green {
+    background: rgb(9, 161, 92);
+}
+
+.yellow {
+    background: rgb(255, 194, 57);
+}
+
+.btn_vision_1 {
+    /* Frame 2 */
+    position: static;
+    width: 122px;
+    height: 41px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 11px 20px 11px 20px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 26px 0px;
+
+    border-radius: 8px;
+
+    color: rgb(255, 255, 255);
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* The Vision of Future end  */
+/* description start  */
+
+.description {
+    margin: 30px 210px;
+   
+}
+
+.description_about {
+
+
+    /* Frame 2087325495 */
+    
+    width: 1280px;
+    height: 256px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 28px 24px 28px 24px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 24px;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+}
+
+.description_summary {
+
+    background-image: url("../assets/quote-bg.png");
+    background-position: top left;
+    background-attachment: scroll;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    /* "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quas, ducimus labore sequi quos deserunt optio id repellendus tempora veniam amet porro corporis exercitationem numquam debitis culpa laudantium odio, velit vel minus sit? Veritatis aut maiores ducimus fugit error ex sit, dignissimos eum tempora perferendis a rem culpa ab aliquid modi? Est vitae neque esse, cumque, quam tenetur rem earum eaque mollitia modi ipsum aspernatur, dignissimos excepturi aliquam architecto soluta necessitatibus vero?" */
+    position: static;
+    width: 1232px;
+    height: auto;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    padding: 20px 0;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 0px;
+
+    color: rgba(14, 14, 14, 0.8);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.description_title {
+
+    /* Dr. Muhammad Yunus */
+    position: static;
+    width: 1232px;
+    height: 24px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 4px 0px;
+
+
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.description_summary_1 {
+
+    /* Chief Adviser of the People's Republic of Bangladesh */
+    position: static;
+    width: 1232px;
+    height: 24px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 4px 0px;
+    color: rgba(14, 14, 14, 0.6);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* description end  */
+/* recent start  */
+.recent{
+     margin: 30px 210px;
+     
+    }
+
+.recent_arh{
+/* Recent News */
 position: static;
 width: 1280px;
 height: 48px;
@@ -294,9 +594,17 @@ order: 0;
 align-self: stretch;
 flex-grow: 0;
 margin: 24px 0px;
+
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
 }
-.vision_description{
-/* Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation, and robust infrastructure, the country is set to become a global model of development. */
+.recent_arp{
+    /* Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation, and robust infrastructure, the country is set to become a global model of development. */
 position: static;
 width: 1280px;
 height: 48px;
@@ -316,110 +624,467 @@ align-self: stretch;
 flex-grow: 0;
 margin: 12px 0px;
 
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
 
 }
 
-.vision_container{
+.recent_main{
     display: flex;
     align-items: center;
     justify-content: space-between;
 
     
 }
-
-.vision_1{
-    box-sizing: border-box;
-border-radius: 16px;
-
-
-/* Frame 2087325495 */
+.recent_img{
+    /* image 3 */
 position: static;
-width: 410.67px;
-height: 325px;
+width: 408px;
+height: 306px;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 32px;
+border-radius: 24px;
+background-image: url('../assets/satelite.png');
+
+}
+
+.recent_container{
+    border-radius: 24px;
+
+background: rgb(255, 255, 255);
+/* Frame 2087325509 */
+position: static;
+width: 1280px;
+height: 402px;
 /* Auto layout */
 display: flex;
-flex-direction: column;
+flex-direction: row;
 justify-content: flex-start;
-align-items: flex-start;
-gap: 24;
-padding: 32px;
+align-items: center;
+gap: 32;
+padding: 48px;
 
 
 /* Inside Auto Layout */
 flex: none;
 order: 0;
-flex-grow: 1;
-margin: 0px 24px;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+box-shadow: 0px 6px 50px 0px rgba(14, 14, 14, 0.15);
 }
 
-.btn_vision{
+
+
+.recent_description_title{
+    /* Bangladesh Launches New Satellite */
+position: static;
+width: 744px;
+height: 38px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 12;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 12px 0px;
+
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.recent_description_img{
+    /* 8f195aac6f4a2c38bbf72c1fbeddbf9b 1 */
+position: static;
+width: 134px;
+height: 40px;
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 12px 0px;
+}
+
+.time{
+    display: flex;
+ align-items: center;
+   
+}
+
+
+.recent_description_date{
+    /* Date: 05/01/2025 */
+    color: rgba(14, 14, 14, 0.7);
+position: static;
+width: 122px;
+height: 24px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 12;
+padding-top: 5px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 12px;
+
+/* Date: 05/01/2025 */
+position: static;
+width: 122px;
+height: 24px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 12;
+
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 12px;
+}
+
+.recent_description_time{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* Time: 10.25 PM */
+position: static;
+width: 105px;
+height: 24px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 12;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 12px;
+}
+.recent_description_not{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* Not until the creation and maintenance of decent conditions of life for all people are recognized and accepted as a common obligation of all people and all countries—not until then shall we, with a certain degree of justification, be able to speak of humankind as civilized */
+position: static;
+width: 744px;
+height: 72px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 12;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+margin: 12px 0px;
+}
+
+.btn_recent{
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+/* Frame 2087325506 */
+position: static;
+width: 139px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 13px 26px 13px 26px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+border-radius: 8px;
+
+background: rgb(0, 106, 80);
+
+}
+
+
+
+/* recent end  */
+
+/* donate start  */
+.donate{
+     margin: 30px 210px;
+    }
+
+.donate_arh{
+    /* Donate Today */
+position: static;
+width: 1280px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 0px;
+
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.donate_arp{
+
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+/* Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation, and robust infrastructure. */
+position: static;
+width: 1104px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 24;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 80px;
+margin-bottom: 30px;
+
+}
+/* .donate_container{
+   
+} */
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+
+}
+
+.box_1{
+    /* Frame 2087325513 */
+position: static;
+width: 240px;
+height: 128px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 20;
+padding: 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+
+box-shadow: 0px 6px 50px 0px rgba(14, 14, 14, 0.15);
+
+}
+
+.box_arh{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;/* 200 Taka */
+    position: static;
+    width: 172px;
+    height: 48px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    padding: 0px;
+    
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 6px 0px;
+    
+    
+}
+
+.box_1:hover {
+    color: rgb(220, 220, 220);
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: rgb(198, 228, 214);
+}
+
+.input_box{
+    padding-left: 200px;
+}
+
+input[type="text"]{
+    box-shadow: 0px 6px 50px 0px rgba(14, 14, 14, 0.15);
+border: 1px solid white;
+border-radius: 5px;
+box-sizing: border-box;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+/* Frame 2087325514 */
+position: static;
+width: 1032px;
+height: 64px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 20px 400px 20px 400px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 32px 0px;
+
+color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+
+
+}
+
+.donate_btn{
     /* Frame 2 */
 position: static;
-width: 122px;
-height: 41px;
+width: 151px;
+height: 56px;
 /* Auto layout */
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 gap: 48;
-padding: 11px 20px 11px 20px;
+padding: 17px 34px 17px 34px;
 
 
 /* Inside Auto Layout */
 flex: none;
-order: 2;
+order: 3;
 flex-grow: 0;
-margin: 9px 0px;
-
-border-radius: 8px;
-color: rgb(255, 255, 255);
-
-font-size: 14px;
-font-weight: 600;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: left;
-
-}
-.blue{
-    background: rgb(84, 144, 245);}
-.green{
-    background: rgb(9, 161, 92);
-}
-.yellow{
-  background: rgb(255, 194, 57);  
-}
-
-.btn_vision_1{
-        /* Frame 2 */
-position: static;
-width: 122px;
-height: 41px;
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 48;
-padding: 11px 20px 11px 20px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 2;
-flex-grow: 0;
-margin: 26px 0px;
-
+margin: 32px 0px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
 border-radius: 8px;
 
+background: rgb(0, 106, 80);
 color: rgb(255, 255, 255);
-
-font-size: 14px;
+font-family: Fira Sans;
+font-size: 16px;
 font-weight: 600;
-line-height: 19px;
+line-height: 22px;
 letter-spacing: 0%;
-text-align: left;
+text-align: center;
 }
 
-/* The Vision of Future end  */
+.donate_btn_d{
+    padding-left: 600px; 
+}
+/* donate end  */
