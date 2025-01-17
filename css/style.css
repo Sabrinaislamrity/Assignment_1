@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 30px 210px;
+    
 }
 
 .nav title {
@@ -215,6 +216,7 @@ nav ul li a {
 
 .pillars {
     margin: 30px 210px;
+    padding-top: 80px;
 }
 
 .pillars_container {
@@ -301,6 +303,7 @@ nav ul li a {
 
 .vision {
     margin: 30px 210px;
+    padding-top: 80px;
 }
 
 .vision_title {
@@ -469,6 +472,7 @@ nav ul li a {
 
 .description {
     margin: 30px 210px;
+    
    
 }
 
@@ -602,6 +606,7 @@ nav ul li a {
 /* recent start  */
 .recent{
      margin: 30px 210px;
+     padding-top: 80px;
      
     }
 
@@ -900,6 +905,8 @@ background: rgb(0, 106, 80);
 /* donate start  */
 .donate{
      margin: 30px 210px;
+     padding-top: 80px;
+     
     }
 
 .donate_arh{
@@ -1118,7 +1125,7 @@ transition: all 0.3s;
 }
 
 .donate_btn_d{
-    padding-left: 600px; 
+    padding-left: 630px; 
 }
 
 .donate_btn:hover{
@@ -1132,7 +1139,7 @@ transition: all 0.3s;
 /* Subscribe Newsletter start  */
 .subscribe{
     margin: 30px 210px;
-
+   
 }
 
 .subscribe_part{
