@@ -4,6 +4,8 @@
     font-style: normal;
 }
 
+
+
 /* nav start  */
 .nav {
     display: flex;
@@ -55,6 +57,27 @@ nav ul li a {
     font-size: 15px;
     font-weight: 600;
     line-height: 22px;
+    transition: all 0.3s;
+}
+
+.btn_singin:hover{
+    color: rgb(220, 220, 220);
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color:rgb(84, 144, 245);
+}
+
+.btn:hover{
+    
+        color: rgb(220, 220, 220);
+        transform: scale(1.05);
+        cursor: pointer;
+        background-color:rgb(84, 144, 245);
+    
+}
+
+.btn_transition{
+    transition: all 0.3s;
 }
 
 /* nav end  */
@@ -176,6 +199,14 @@ nav ul li a {
     order: 1;
     flex-grow: 0;
     margin: 24px 0px;
+    transition: all 0.3s;
+}
+
+.btn_explore:hover{
+    color: rgb(220, 220, 220);
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color:rgb(84, 144, 245);
 }
 
 /* banner end */
@@ -970,6 +1001,7 @@ border-radius: 16px;
 background: rgb(255, 255, 255);
 
 box-shadow: 0px 6px 50px 0px rgba(14, 14, 14, 0.15);
+transition: all 0.3s;
 
 }
 
@@ -1082,9 +1114,311 @@ font-weight: 600;
 line-height: 22px;
 letter-spacing: 0%;
 text-align: center;
+transition: all 0.3s;
 }
 
 .donate_btn_d{
     padding-left: 600px; 
 }
+
+.donate_btn:hover{
+    color: rgb(220, 220, 220);
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color:rgb(84, 144, 245);
+}
 /* donate end  */
+
+/* Subscribe Newsletter start  */
+.subscribe{
+    margin: 30px 210px;
+
+}
+
+.subscribe_part{
+    border-radius: 24px;
+
+background: rgb(198, 228, 214);
+/* Frame 2087325517 */
+position: static;
+width: 1280px;
+height: 395px;
+/* Auto layout */
+display: block;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 64;
+padding: 80px 100px 80px 100px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+margin: 80px 0px;
+
+}
+
+
+.subscribe_part_1{
+padding-left: 300px;
+}
+
+
+.subscribe_arh{
+/* Subscribe Newsletter */
+position: static;
+width: 622px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 16;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.subscribe_arp{
+    /* Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth. */
+position: static;
+width: 622px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 16;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 11px 0px;
+
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+
+.subscribe_part_2{
+    display: flex;
+}
+
+
+input[type="email"]{
+    box-shadow: 0px 6px 50px 0px rgba(14, 14, 14, 0.15);
+border: 1px solid white;
+border-radius: 5px 0px 0px 5px;
+box-sizing: border-box;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+/* Frame 2087325514 */
+position: static;
+width: 600px;
+height: 55px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 20px 40px 18px 42px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 32px 0px;
+
+color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 19px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+
+
+}
+
+.subscribe_arinput{
+    padding-left: 250px;
+}
+
+.btn_subscribe{
+    position: static;
+    width: 151px;
+    height: 56px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 25px 32px 27px 32px;
+    
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 31px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 0px 8px 8px 0px ;
+    
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 5px;
+    letter-spacing: 0%;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.subscribe_arlast{
+    padding-left: 270px;
+}
+
+.subscribe_arlastp{
+    /* We promise not to spam you! */
+position: static;
+width: 622px;
+height: 19px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 22px 0px;
+
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.btn_subscribe:hover{
+    color: rgb(220, 220, 220);
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color:rgb(84, 144, 245);
+}
+
+
+
+
+/* Subscribe Newsletter end  */
+
+/* footer start  */
+
+.last_arh{
+    /* Bangladesh 2.0 */
+position: static;
+width: 222px;
+height: 38px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 16;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+
+}
+
+.last_arh_padding{
+    padding-left: 620px;
+}
+
+.last{
+    margin: 30px 210px;
+
+   
+}
+
+.line{
+    /* Line 1 */
+position: static;
+width: 1122px;
+height: 0;
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 40px;
+border: 1px solid rgba(14, 14, 14, 0.1);
+padding-left: 300px;
+
+}
+
+.imgesss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    margin: 32px 0px;
+
+
+}
+
+
+
+
+/* footer end  */
